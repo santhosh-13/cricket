@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand Cricket</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body bgcolor="151D3B">
+    <center><br>
+    <p>Select Your Shot</p><br><br><br>
+    <button onclick="runs('1')">1</button>
+    <button onclick="runs('2')">2</button><br>
+    <button onclick="runs('3')">3</button>
+    <button onclick="runs('4')">4</button><br>
+    <button onclick="runs('5')">5</button>
+    <button onclick="runs('6')">6</button>
+    </center>
+    <marquee id="mar"></marquee>
+    <div id="scorecard">
+        <h1>IND:</h1>
+        <h1 id="total">0</h1>
+        <h1>/</h1>
+        <h1 id="wickets">0</h1>
+        <h3 id="over">(0.0 / 5.0)</h3>
+        <h3>Target :</h3>
+        <h3 id="target">0</h3>
+        <h4>Bowler's Move : <span id="bowler">0
+</span></h4>
+</div>
+</body>
+</html>
